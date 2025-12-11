@@ -1,0 +1,5 @@
+{
+  "name": "Atmosphere Pro",
+  "description": "A premium, Apple-inspired weather application featuring procedural animations for Sun, Rain, Snow, and Wind, enhanced with Gemini AI weather descriptions.",
+  "requestFramePermissions": []
+}
