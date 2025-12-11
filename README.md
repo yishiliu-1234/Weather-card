@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Atmosphere Pro: 高级天气应用
 
-# Run and deploy your AI Studio app
+Atmosphere Pro 是一款灵感源自 Apple 设计美学的高端天气应用，融合了流畅的 procedural 动画效果与 Gemini AI 驱动的天气描述，为用户带来沉浸式的天气体验。
 
-This contains everything you need to run your app locally.
+## 核心功能
 
-View your app in AI Studio: https://ai.studio/apps/drive/15fWsMPH3iD0hwi6LuZ-ku0VsR7W5Ynnp
+- **动态天气动画**：根据天气类型呈现阳光、降雨、降雪和大风的精美 procedural 动画
+- **AI 天气描述**：由 Gemini AI 生成富有诗意的天气描述，提升用户体验
+- **多语言支持**：提供中文和英文界面切换
+- **城市管理**：搜索、添加和管理多个城市的天气信息
+- **响应式设计**：完美适配从移动设备到桌面的各种屏幕尺寸
 
-## Run Locally
+## 技术栈
 
-**Prerequisites:**  Node.js
+- **前端框架**：React 19
+- **构建工具**：Vite
+- **类型系统**：TypeScript
+- **AI 集成**：Google Gemini API
+- **样式解决方案**：Tailwind CSS
+- **动画效果**：自定义 CSS 动画
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 应用特性
+
+- **视觉体验**：深色模式设计配合天气类型专属渐变背景，营造沉浸式氛围
+- **智能搜索**：通过 Gemini AI 快速获取任意城市的天气信息
+- **数据持久化**：使用 localStorage 保存用户的城市收藏
+- **精美动画**：每种天气类型都有专属的动态效果，增强视觉体验
+- **简洁界面**：遵循极简设计原则，突出天气信息的可读性
+
+## 天气类型
+
+应用支持四种主要天气类型，每种都有独特的视觉呈现：
+
+- **晴天(Sunny)**：温暖的橙黄色调与旋转的太阳动画
+- **雨天(Rainy)**：深蓝色背景配合雨滴下落效果
+- **雪天(Snowy)**：冷色调背景与缓缓飘落的雪花
+- **大风(Windy)**：灰色调设计与流动的风效动画
+
+
+构建产物将生成在 `dist` 目录下，可部署到任意静态网站托管服务。
+
+## 许可证
+
+本项目采用 MIT 许可证开源。
